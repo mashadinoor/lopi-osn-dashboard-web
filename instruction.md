@@ -26,11 +26,13 @@ Menyiapkan project Laravel sebagai fondasi aplikasi.
 ## Checklist
 
 - [x] Membuat project Laravel
-- [ ] Install Vue.js
-- [ ] Install Tailwind CSS
-- [ ] Konfigurasi koneksi MySQL
-- [ ] Inisialisasi Git Repository
-- [ ] Push repository pertama
+- [x] Inisiasi git
+- [x] Membuat branch `main` dan `dev`
+- [x] Install Vue.js
+- [x] Install Tailwind CSS
+- [x] Konfigurasi koneksi MySQL
+- [x] Inisialisasi Git Repository
+- [x] Push repository pertama
 
 ## Learning
 
