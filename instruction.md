@@ -57,12 +57,12 @@ Membangun sistem login untuk internal LOPI.
 
 ## Checklist
 
-- [ ] Install Laravel Breeze
-- [ ] Menghapus fitur Register
-- [ ] Menghapus Forgot Password
-- [ ] Login menggunakan Email
-- [ ] Logout
-- [ ] Redirect setelah login
+- [x] Install Laravel Breeze
+- [x] Menghapus fitur Register
+- [x] Menghapus Forgot Password
+- [x] Login menggunakan Email
+- [x] Logout
+- [x] Redirect setelah login
 
 ## Learning
 
