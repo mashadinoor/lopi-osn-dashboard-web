@@ -28,8 +28,8 @@ Menyiapkan project Laravel sebagai fondasi aplikasi.
 - [x] Membuat project Laravel
 - [x] Inisiasi git
 - [x] Membuat branch `main` dan `dev`
-- [ ] Install Vue.js
-- [ ] Install Tailwind CSS
+- [x] Install Vue.js
+- [x] Install Tailwind CSS
 - [ ] Konfigurasi koneksi MySQL
 - [ ] Inisialisasi Git Repository
 - [ ] Push repository pertama
