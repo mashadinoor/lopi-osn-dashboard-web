@@ -86,11 +86,11 @@ Merancang struktur database berdasarkan data CSV.
 
 ## Checklist
 
-- [ ] Analisis struktur CSV
-- [ ] Menentukan kolom database
-- [ ] Membuat Migration
-- [ ] Membuat Model
-- [ ] Membuat Seeder (opsional)
+- [x] Analisis struktur CSV
+- [x] Menentukan kolom database
+- [x] Membuat Migration
+- [x] Membuat Model
+- [x] Membuat Seeder (opsional)
 
 ## Learning
 
@@ -112,11 +112,12 @@ Mengimpor data CSV ke database.
 
 ## Checklist
 
-- [ ] Upload CSV
-- [ ] Validasi file
+- [ ] Membuat halaman Import Data
+- [ ] Upload file CSV
+- [ ] Validasi file & struktur CSV
 - [ ] Parsing CSV
-- [ ] Batch Insert
-- [ ] Validasi data duplikat
+- [ ] Membuat ImportLog
+- [ ] Replace data berdasarkan tahun (Transaction + Batch Insert)
 - [ ] Menampilkan hasil import
 
 ## Learning
