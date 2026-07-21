@@ -1,5 +1,8 @@
 <?php
 
-class CsvImportService {
-  //
+namespace App\Services;
+
+class CsvImportService
+{
+    //
 }
