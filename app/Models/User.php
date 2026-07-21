@@ -17,6 +17,11 @@ class User extends Authenticatable
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
 
+    public function importLogs(){
+        return $this->hasMany(ImportLog::class, 'imported_by'); 
+    }
+
+
     /**
      * Get the attributes that should be cast.
      *
