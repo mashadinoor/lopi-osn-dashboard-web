@@ -2,11 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\ImportCsvRequest;
+use App\Services\CsvImportService;
 
 class ImportController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return inertia('Imports/Index');
+    }
+
+    public function store(
+        ImportCsvRequest $request,
+        CsvImportService $service
+    ) {
+        dd($request->file('file'));
     }
 }
